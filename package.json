@@ -1,0 +1,13 @@
+{
+  "name": "prisma-qa-compute-alpha",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "hono": "^4.6.12"
+  }
+}
