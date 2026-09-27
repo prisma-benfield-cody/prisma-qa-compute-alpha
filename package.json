@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "echo build complete",
+    "build": "mkdir -p dist && cp index.js dist/index.js",
     "start": "node index.js"
   },
   "dependencies": {
